@@ -29,5 +29,5 @@ https://docs.google.com/drawings/d/1omhXGpyFYs1cH8w1IvPOZ4nwgCNixbkcyZSOJxBWWaA/
 
 3. Set cursor lock and visible is important to my vertical slice because I am making a FPS, which requires the cursor to be hidden and locked to control the camera.
 
-4. The game state is relevant to my vertical slice as I need something to track what happens when the game starts, continues, and ends.
+4. The game state is relevant to my vertical slice as I need something to track what happens when the game starts, continues, and ends. In the start, a countdown will begin that will activate the main game state. When the player dies or completes the level, the end game state will activate.
 
