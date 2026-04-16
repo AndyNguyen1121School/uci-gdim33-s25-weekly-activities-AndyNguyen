@@ -17,13 +17,17 @@ https://docs.google.com/drawings/d/1omhXGpyFYs1cH8w1IvPOZ4nwgCNixbkcyZSOJxBWWaA/
 ![alt text](image.png)
 
 
-## W2
+### W3
 
-Write your W2 Devlog here.
+### Activity 1
+![alt text](image-1.png)
 
-Continue adding additional headers below this one for future weeks and future activities.
+### Activity 2
+1. Having the event name a variable reduces the chances of the programmer having an error due to typing the wrong event name in the graph. Additionally, since every other graph has access to the string, the programmer can access the variable in any graph to activate the custom event.
 
+2. I used Debug logs to track every state change to see whether the state is being entered correctly. I labeled my debug logs to "dialogue to explore" and "explore to dialogue" to track the exact game state the player is in.
 
+3. Set cursor lock and visible is important to my vertical slice because I am making a FPS, which requires the cursor to be hidden and locked to control the camera.
 
-Test
+4. The game state is relevant to my vertical slice as I need something to track what happens when the game starts, continues, and ends.
 

@@ -1031,7 +1031,20 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1053609873}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1998048659}
+        m_TargetAssemblyTypeName: Unity.VisualScripting.EventMachine`2[[Unity.VisualScripting.StateGraph,
+          Unity.VisualScripting.State
+        m_MethodName: TriggerUnityEvent
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: exitDialogue
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1053609873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1209,10 +1222,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2063094673}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -276.0171, y: 259.55603}
-  m_SizeDelta: {x: 375.9658, y: 45.1121}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 216, y: -54}
+  m_SizeDelta: {x: 375.96582, y: 45.11212}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1356874908
 MonoBehaviour:
@@ -1261,8 +1274,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 15.7
+  m_fontSizeBase: 15.7
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1932,7 +1945,8 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"gameController","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"penguinMovement","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"Unity.VisualScripting.ScriptMachine,
       Unity.VisualScripting.Flow, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"dialogueUI","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"clickNpcEventName","value":{"$content":"clickWalrus","$type":"System.String"},"typeHandle":{"Identification":"System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1803096476}
     - {fileID: 1998048657}
@@ -2017,9 +2031,28 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"timerText","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"TMPro.TextMeshProUGUI,
       Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"timeUntilEnd","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"fallingAnimals","value":{"$content":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],"$type":"System.Collections.Generic.List`1[[Unity.VisualScripting.ScriptMachine,
+      Unity.VisualScripting.Flow, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[Unity.VisualScripting.ScriptMachine,
+      Unity.VisualScripting.Flow, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1356874908}
+    - {fileID: 6696622849973097053}
+    - {fileID: 7475075047332194358}
+    - {fileID: 6878390032561626903}
+    - {fileID: 6284451469725206330}
+    - {fileID: 8318733491919922164}
+    - {fileID: 8624211287725520617}
+    - {fileID: 4514052198197289182}
+    - {fileID: 7399942600317721754}
+    - {fileID: 5109398648045262868}
+    - {fileID: 8930043000769945393}
+    - {fileID: 3522790001080369253}
+    - {fileID: 7317304465891247513}
+    - {fileID: 6226534443695028378}
+    - {fileID: 6776003181814620620}
+    - {fileID: 4834053962540495815}
+    - {fileID: 7775319001830142250}
 --- !u!1 &2022286330
 GameObject:
   m_ObjectHideFlags: 0
@@ -2100,7 +2133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -8430,7 +8463,7 @@ Transform:
   m_GameObject: {fileID: 3999736273285298937}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.99820405, z: -0, w: 0.059906214}
-  m_LocalPosition: {x: -2, y: 500, z: 10.3}
+  m_LocalPosition: {x: -1.3594413, y: 502.0805, z: 8.183901}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8503,10 +8536,12 @@ MonoBehaviour:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"iconObj","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"interactDistance","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"walrusCenter","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Transform,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"gameState","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"Unity.VisualScripting.StateMachine,
+      Unity.VisualScripting.State, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1497044956}
     - {fileID: 8659439928963630310}
+    - {fileID: 1998048659}
 --- !u!135 &4386361210439998961
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -15202,6 +15237,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 445348023}
   - {fileID: 1980423672}
+  - {fileID: 4380377764832370755}
   - {fileID: 768744493}
   - {fileID: 1803096479}
   - {fileID: 4005016095942788948}
@@ -15209,4 +15245,3 @@ SceneRoots:
   - {fileID: 197195360}
   - {fileID: 129317670}
   - {fileID: 2063094673}
-  - {fileID: 4380377764832370755}
