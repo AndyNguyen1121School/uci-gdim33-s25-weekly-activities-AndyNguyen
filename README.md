@@ -59,3 +59,11 @@ Possible adjustments:
 - Sensitivity is too high, add a slider.
 
 
+### Activity 2
+1. The writer can add more dialogue to this setup because all of the dialogue is managed through scriptable objects that the writers can create without worrying about the backend. In the backend, the flow of the dialogue is control automatically without having the writers interfering with internal logic.
+
+2. The writer can only put four dialogue nodes before the layout group overflows and makes the UI look weird.
+
+3. The regenerate nodes button is used to create nodes to access custom classes that do not derive from monobehavior or scriptable objects within the visual graph. However, new monohavior and scriptable object scripts are scraped and automatically added to be used in the visual graph.
+
+

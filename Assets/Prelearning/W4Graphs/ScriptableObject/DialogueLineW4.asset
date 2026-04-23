@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d87814806be98455aa06d85e22ad29d6, type: 3}
+  m_Name: DialogueLineW4
+  m_EditorClassIdentifier: 
+  Line: my name is andy
+  ReplyOptions:
+  - line: i dont care
+    nextNode: {fileID: 11400000, guid: 63d5ae6787522f248be0ce743e93ee14, type: 2}
+  - line: Hi amdy
+    nextNode: {fileID: 11400000, guid: 5d29d2f4bc8c7494ca050fa9c1fe298c, type: 2}
