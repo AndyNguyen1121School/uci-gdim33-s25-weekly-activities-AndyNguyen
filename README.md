@@ -31,3 +31,31 @@ https://docs.google.com/drawings/d/1omhXGpyFYs1cH8w1IvPOZ4nwgCNixbkcyZSOJxBWWaA/
 
 4. The game state is relevant to my vertical slice as I need something to track what happens when the game starts, continues, and ends. In the start, a countdown will begin that will activate the main game state. When the player dies or completes the level, the end game state will activate.
 
+### W4
+
+### Activity 1
+
+Playable parts in my vertical slice:
+- Character movement: Jumping and walking.
+- Core mechanics: Propel mechanic, damage, guns, shooting
+- Timer
+- Enemy death
+- Gun animations
+- Weapon Switching
+
+Playtesters: 
+- Zom
+- Zoya 
+- Jacob
+- Noah
+- Kristin
+- Julie
+
+Players do not interact with propell mechanic often. Shotgun should have more feedback behind it's shot. Add barriers for the roof. Shots spawn behind the player.
+
+Possible adjustments: 
+- add higher platforms to incentivize players to propell more. 
+- Make rifle stronger. Shotguns are too strong
+- Sensitivity is too high, add a slider.
+
+
