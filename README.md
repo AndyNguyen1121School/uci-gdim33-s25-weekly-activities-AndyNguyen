@@ -66,4 +66,18 @@ Possible adjustments:
 
 3. The regenerate nodes button is used to create nodes to access custom classes that do not derive from monobehavior or scriptable objects within the visual graph. However, new monohavior and scriptable object scripts are scraped and automatically added to be used in the visual graph.
 
+### W5
+1. Set up walking animations for enemies
+    - Add idle and walking animation clips in the animator
+    - Create a parameter named "IsWalking" to control transitions.
+    - In the EnemyManager C# script, set "IsWalking" to true if the agent's velocity magnitude is above 0.05f and false if less
+    - TEST: When the enemy walks towards the player, the "IsWalking" parameter in the animator should be set to true
 
+2. Set up transitions between walking states 
+    - Hook up Idle -> Walk and Walk <- Idle
+        - Idle -> Walk: Set exit time to 0 and transition time to 0.25. In the transition, add the parameter so the animation activates when IsWalking == true.
+        - Walk -> Idle: Set exit time to 0 and transition time to 0.25.  In the transition, add the parameter so the animation activates when IsWalking == false.
+        - TEST: When the animator parameter "IsWalking" is true, the enemy should smoothly transition from idle -> running and vice versa.
+
+3.  Play attack animation when in range.
+    - 
