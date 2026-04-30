@@ -67,6 +67,7 @@ Possible adjustments:
 3. The regenerate nodes button is used to create nodes to access custom classes that do not derive from monobehavior or scriptable objects within the visual graph. However, new monohavior and scriptable object scripts are scraped and automatically added to be used in the visual graph.
 
 ### W5
+### Activity 1
 1. Set up walking animations for enemies
     - Add idle and walking animation clips in the animator
     - Create a parameter named "IsWalking" to control transitions.
@@ -80,4 +81,13 @@ Possible adjustments:
         - TEST: When the animator parameter "IsWalking" is true, the enemy should smoothly transition from idle -> running and vice versa.
 
 3.  Play attack animation when in range.
-    - 
+    - Add the attack animation to the animator
+    - Set a transition from the attack to idle. Make the exit time 0.75 and the transition duration 0.25f.
+    - Make a function in EnemyManager to detect the range between the enemy and the player.
+    - Make a minimumDistanceToHit variable to customize the range of the attack.
+    - Make a attack cooldown to make sure the enemy does not spam the animation
+    - TEST: When the player is close enough and the cooldown is over, play the attack animation using animator.CrossFade("Attack", 0.1f). Reset the cooldown afterwards
+
+### Activity 2
+1. I completed setting up the walking and idle animations and linking it up to the speed of the navmesh. Additionally, I have completed the attack logic when the distance between the enemy and the player are below the minimum distance. Now, I have to set up the actual damage logic so the player dies when they are atatcked.
+
