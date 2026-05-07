@@ -105,7 +105,7 @@ Possible adjustments:
 
 2. If 2 alpha values are multiplied together, the result will be more translucent unless both alpha values are 1. If a value is less than one, then the result will be more transparent.
 
-3. The shader gets the UV values from the BaseMap. The texture map has coordinates that represent the UVs.
+3. The shader gets the UV values from mesh vertices. This tells you where in the texture should map onto the model. 
 
 4. I don't understand what the different blend modes mean but I find the concept very interesting and I am excited to learn more.
 
