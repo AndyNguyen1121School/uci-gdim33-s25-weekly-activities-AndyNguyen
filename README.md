@@ -91,3 +91,21 @@ Possible adjustments:
 ### Activity 2
 1. I completed setting up the walking and idle animations and linking it up to the speed of the navmesh. Additionally, I have completed the attack logic when the distance between the enemy and the player are below the minimum distance. Now, I have to set up the actual damage logic so the player dies when they are atatcked.
 
+### W6
+### Activity 1
+1. 
+    - I added new enemy behavior that chases the player when they get in range. I also adjusted physics and movement logic.
+    - https://andy-nguyen-uci.itch.io/propellantplaytest2
+    - Playtest Goal: Do the guns feel satisfying? Is the movement responsive and tight? How do players feel about the control scheme?
+
+    Playtesting Notes: NEED sensitivity slider. Make longer levels, gameplay is fun but players desire more. Enemies feel scary when they chase the player (intended).
+
+### Activity 2
+1. The multiply setting makes the resulting color darker and less saturated because it multiplies the two colors together. The multiplication node essentially muliplies two Vector4's whose values range from 0-1 per channel. If a color has a value less than one, then the color becomes darker and less saturated.
+
+2. If 2 alpha values are multiplied together, the result will be more translucent unless both alpha values are 1. If a value is less than one, then the result will be more transparent.
+
+3. The shader gets the UV values from the BaseMap. The texture map has coordinates that represent the UVs.
+
+4. I don't understand what the different blend modes mean but I find the concept very interesting and I am excited to learn more.
+
