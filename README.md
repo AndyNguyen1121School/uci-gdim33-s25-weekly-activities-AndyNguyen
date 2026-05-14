@@ -109,3 +109,18 @@ Possible adjustments:
 
 4. I don't understand what the different blend modes mean but I find the concept very interesting and I am excited to learn more.
 
+### W7
+1. The data for the vertex color node comes from the mesh, where the its vertex information is accessed to get the color.
+
+2. The color is blended at the edges because the three vertices that form a fragment are blended together based on the distance from each other.
+
+3. The vertex color is less detailed than the vertex color because it is blending between the 3 vertices. With textures and UVs, the UV has the exact coordinates that is used to assign the texture to.
+
+4. There is a spot on the shiba's rear that not following the gradient around it, indicating there is something wrong with the normals.
+
+5. We can use a UV node to visualize where the texture is being mapped. The legs, body, and face are all colored according to the UV's which can help us check if the textures are being correctly applied.
+
+6. The dot product returns 1 (or white) when the normal points the same direction as the light. However, we want the normals going against the light to be lit, so we have to inverse the product.
+
+7. Since we want the fire effect to be brighter, we add the color values instead of multiplying it, which makes it darker.
+
