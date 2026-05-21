@@ -124,3 +124,25 @@ Possible adjustments:
 
 7. Since we want the fire effect to be brighter, we add the color values instead of multiplying it, which makes it darker.
 
+
+### W8
+
+### Activity 1
+1. I added enemy attacks and a death state. Additionally, I made a brand new level where players need to utilize the game's propelling mechanic to jump over a wall.
+
+2. [https://andy-nguyen-uci.itch.io/propellant-milestone-2](Link to itch) 
+
+3. PLAYTEST GOALS AND NOTES
+    - Does the death state communicate well to the player? No really, the camera shakes violently
+    - Do players know to scale the wall with their gun? Yes people naturally tend to go over the wall?
+    - Do the enemies blend too much with the environment? No, the enemies are fine.
+
+### Activity 2
+1. The stencil buffer defaults all the values of the Shiba to 1 since it is on the outline layer. Then, the outline shader compares the stencil value and checks that it is equal to 1. If not, the outline draws.
+
+2. The dog is being drawn twice since the shader still draws every outline pixel on the shiba despite the shiba being over it.
+
+3. If we multiplied the results of all the lighting then we would also be including the black pixels in the lighting meaning the some of colors will be blacked out. We add the colors to overlay the lighting over each other.
+
+4. Changing the layer of the shiba to Outline draws the shader since the setting in the renderer only draws to object with the outline shader.
+
