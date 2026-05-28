@@ -146,3 +146,18 @@ Possible adjustments:
 
 4. Changing the layer of the shiba to Outline draws the shader since the setting in the renderer only draws to object with the outline shader.
 
+
+### W9
+
+### Activity 1
+
+Game: Pyre
+
+1. Dialogue boxes slowly fading in with fire. 
+    - Use a simple noise to reference the alphas. Add an alpha clip threshold to the material. Overtime, animate the alpha clip threshold using time to slowly decrease the threshold down to 0, fully exposing the image. Then, I can use a fresnel effect to add the glowing effect to the borders.
+    - How to apply in gameplay: Reset the time duration on the material to play the fading in animation.
+
+2. Motion blur when zooming in.
+    - Get the distance from the middle of the screen to the borders. Borders of the screen get darker and middle of the screen is clear. Additionally, use a vertex shader to stretch the screen outwards.
+    - How to apply in gameplay: Set the zoom in duration when the player interacts with the item, resetting the effect.
+
