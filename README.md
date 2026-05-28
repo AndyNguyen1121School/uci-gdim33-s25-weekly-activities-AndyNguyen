@@ -161,3 +161,9 @@ Game: Pyre
     - Get the distance from the middle of the screen to the borders. Borders of the screen get darker and middle of the screen is clear. Additionally, use a vertex shader to stretch the screen outwards.
     - How to apply in gameplay: Set the zoom in duration when the player interacts with the item, resetting the effect.
 
+### Activity 2
+![Shader graph](image-2.png)
+
+1. This shader graph is used to make a barrier effect it scrolls two textures (simple noise) against each other to create a force field like effect.
+
+2. I made a fireball shader with a Fresnel effect but I did not know how to change the color of the inside. I had to use a one minus mode to invert the colors and multiply that result with another color. Then, I would add the inner and outer colors to create a fireball effect.
