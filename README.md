@@ -189,5 +189,5 @@ Playtesting Notes
 When diagramming a project, it is difficult to account for every mechanic and detail needed to engineer the requirements. That is why it is important to update the diagram frequently to keep track of what and how you want to implement a feature. To make this a easier process, I need to figure out how I want my game to look like in the end and build up from there. This gives a good idea of how much time it will take to make a feature and how big the scope is.
 
 ### Activity 3
-
+I added a health stat and a heath bar so players do not die in one hit. I also added a trailing health color to show players how much health they lost.
 
