@@ -167,3 +167,27 @@ Game: Pyre
 1. This shader graph is used to make a barrier effect it scrolls two textures (simple noise) against each other to create a force field like effect.
 
 2. I made a fireball shader with a Fresnel effect but I did not know how to change the color of the inside. I had to use a one minus mode to invert the colors and multiply that result with another color. Then, I would add the inner and outer colors to create a fireball effect.
+
+### W9 
+
+### Activity 1
+
+(itch link)[https://andy-nguyen-uci.itch.io/gdim-playtest-final]
+New additions: New weapon RAILGUN and enemies that throw projectiles
+
+Playtesting goals: Do players like shooting the railgun and the enemies that throw projectiles.
+
+Playtesting Notes
+    - Players die way too quickly
+    - Fireballs are too quick
+    - the controls are not intuitive - controls are not being read
+    - need to add more indication that players can jump over wall
+    - players walk towards wall not knowing that it is a barrier    
+
+### Activity 2
+
+When diagramming a project, it is difficult to account for every mechanic and detail needed to engineer the requirements. That is why it is important to update the diagram frequently to keep track of what and how you want to implement a feature. To make this a easier process, I need to figure out how I want my game to look like in the end and build up from there. This gives a good idea of how much time it will take to make a feature and how big the scope is.
+
+### Activity 3
+
+
